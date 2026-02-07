@@ -147,7 +147,25 @@ body.dark-mode {
 }
 
 body.dark-mode header {
-  background-color: #1e1e1e;
+  background-color: #242323;
+  color: white;
+}
+
+body.dark-mode .project-card {
+  background-color: #222;
+  color: white;
+  border-left: 5px solid #28a745;
+}
+
+body.dark-mode .modal-content {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode footer {
+  background-color: #111;
+
+  background-color: #0e0d0d;
   color: white;
 }
 

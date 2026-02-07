@@ -1,85 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Siddheswar Sahoo | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <button id="darkModeToggle">Toggle Dark Mode</button>
 </head>
 <body>
-  <!-- Modal (Move inside body) -->
-  <div id="hireModal" class="modal">
-    <div class="modal-content">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <h2>Hire Me</h2>
-      <form id="hireForm">
-        <label>Your Name:</label>
-        <input type="text" id="name" required>
+  <div id="root"></div>
 
-        <label>Your Email:</label>
-        <input type="email" id="email" required>
-
-        <label>Message:</label>
-        <textarea id="message" rows="4" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- Header -->
-  <header>
-    <img src="profile.jpg" alt="Siddheswar Sahoo" class="profile-img" />
-    <h1>Siddheswar Sahoo</h1>
-    <p>Student | Project Builder</p>
-    <a href="Siddheswar_Sahoo_Resume.pdf" download class="resume-button" target="_blank">Download Resume</a>
-
-  </header>
-
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate student working on innovative HealthTech and Weather applications. 
-      Skilled in Java, HTML, CSS, JavaScript, and Bootstrap.
-    </p>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>My Projects</h2>
-    <div class="project-card">
-      <h3>HealthTech Primary Diagnosis</h3>
-      <p>A web app that provides instant health diagnosis based on symptoms and recommends doctors.</p>
-      <p><strong>Tech:</strong> HTML, CSS, JavaScript, Bootstrap</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Weather Reporting App</h3>
-      <p>A Java-based full-stack website that displays live weather updates.</p>
-      <p><strong>Tech:</strong> Java, Spring Boot, JS, Bootstrap</p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: sidhusahoo2002@gmail.com</p>
-    <p>LinkedIn: 
-      <a href="https://www.linkedin.com/in/siddheswar-sahoo-54ba0a271/" target="_blank">
-        My Linkedin Profile
-      </a>
-    </p>
-    <button class="hire-button" onclick="openModal()">Hire Me</button>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Siddheswar Sahoo. All rights reserved.</p>
-  </footer>
-
-  <!-- Script at the end for proper loading -->
-  <script src="script.js"></script>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel" src="script.js"></script>
 </body>
 </html>
